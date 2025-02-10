@@ -1,0 +1,30 @@
+# 🚀 Node Modules
+node_modules/
+dist/
+package-lock.json
+yarn.lock
+
+# 🚀 Build Artifacts
+*.log
+*.tgz
+.npm/
+.cache/
+.DS_Store
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 🚀 TypeScript & Editor Files
+*.tsbuildinfo
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🚀 Test Coverage & Debug Files
+coverage/
+jest/
+__tests__/
+__mocks__/

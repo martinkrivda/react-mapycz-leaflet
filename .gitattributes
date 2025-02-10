@@ -1,0 +1,30 @@
+# 🚀 Ensure LF Line Endings (Avoid CRLF Issues on Windows)
+* text=auto eol=lf
+
+# 🚀 Ignore Binary Files in Diffs
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mp4 binary
+*.pdf binary
+
+# 🚀 Handle JavaScript & TypeScript Files Correctly
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+
+# 🚀 Prevent Unnecessary Files from Being Packaged in npm Releases
+package-lock.json export-ignore
+.yarn.lock export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
+.github/ export-ignore
+.vscode/ export-ignore
+.idea/ export-ignore
+tests/ export-ignore
+__tests__/ export-ignore
+__mocks__/ export-ignore
+coverage/ export-ignore
