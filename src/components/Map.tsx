@@ -17,7 +17,7 @@ const MapyCzTileLayer: React.FC<{ apiKey: string }> = ({ apiKey }) => {
 
   useEffect(() => {
     const mapyLayer = L.tileLayer(
-      `https://api.mapy.cz/v1/maptiles/turist/256/{z}/{x}/{y}?apikey=${apiKey}`,
+      `https://api.mapy.cz/v1/maptiles/outdoor/256/{z}/{x}/{y}?apikey=${apiKey}`,
       {
         minZoom: 0,
         maxZoom: 19,
