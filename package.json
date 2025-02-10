@@ -6,6 +6,7 @@
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "test": "echo \"No tests defined\" && exit 0",
     "build": "rollup -c",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run build"
@@ -42,5 +43,13 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "typescript": "^5.7.3"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
 }
